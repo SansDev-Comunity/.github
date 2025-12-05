@@ -2,7 +2,7 @@
 
 [Join Discord SansDev Community](https://discord.com/invite/VHscdktb24)
 
-# 🚀 SansDev-Comunity
+# 🚀 SansDev Comunity
 
 ![image](https://raw.githubusercontent.com/SansDev-Comunity/SansDev-Comunity/refs/heads/main/Untitled%20(7).png)
 

@@ -1,14 +1,8 @@
-# 🎉 SansDev Community
-
-Selamat datang di organisasi SansDev Community!
+# 🎉 Selamat datang di organisasi SansDev Community!
 
 [Join Discord SansDev Community](https://discord.com/invite/VHscdktb24)
 
-## 🚀 Project Kami
-- SansDev-Community
-- (Tambah lainnya di sini)
-
-# SansDev-Comunity
+# 🚀 SansDev-Comunity
 
 ![image](https://raw.githubusercontent.com/SansDev-Comunity/SansDev-Comunity/refs/heads/main/Untitled%20(7).png)
 
@@ -27,6 +21,3 @@ Dengan Komunitas San Digital Agency yang dikelola dan berada Komunitas Sunset Br
 
 Yang artinya Matahari Terbenam rencana Akan di buat Coffee Shop
 dengn nama (Sunset Brew)
-
-[Join Discord SansDev Community](https://discord.com/invite/VHscdktb24)
-

@@ -2,9 +2,9 @@
 
 [Join Discord Sunset Brew Community](https://discord.com/invite/VHscdktb24)
 
-# 🚀 Sunset Brew Comunity
+# 🚀 SansDev Community
 
-![image](https://raw.githubusercontent.com/SansDev-Comunity/SansDev-Comunity/refs/heads/main/Untitled%20(7).png)
+![image](https://raw.githubusercontent.com/SansDev-Comunity/.github/refs/heads/main/profile/Untitled%20(7).png)
 
 SansDev adalah organisasi yang bergerak di bidang edukasi dan bersifat sumber terbuka (open source).
 di sini Kami menyediakan Fasilitas Magang dan juga kerja bagi yang ingin mencari pengalaman di bidang:

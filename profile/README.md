@@ -1,6 +1,5 @@
 # 🎉 Selamat datang di organisasi SansDev Community!
 
-
 [Join Discord Sunset Brew Community](https://discord.com/invite/VHscdktb24)
 
 # 🚀 SansDev Community

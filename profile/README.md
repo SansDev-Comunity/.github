@@ -19,5 +19,10 @@ Dalam bentuk Agency
 Dengan Komunitas San Digital Agency yang dikelola dan berada Komunitas Sunset Brew
 (San di ambil dari kata Sunset dalam Bahasa Inggris)
 
-Yang artinya Matahari Terbenam rencana Akan di buat Kelas Bootcamp yaitu Sunset Tech & Coffee Shop
+Yang artinya Matahari Terbenam rencana Akan di buat Coffee Shop
 dengn nama (Sunset Brew)
+
+Pada bulan Oktober 2026 ia merubah nama nya menjadi Sunrise Brew yang artinya terbit <br>
+(Yang berarti membangun dan berkembang) <br>
+
+Tidak hanya itu, Kami juga menyediakan fasilitas Course, Bootcamp, Sekolah, University, hingga Startup

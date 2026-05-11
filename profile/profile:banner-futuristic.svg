@@ -1,0 +1,257 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"></stop>
+      <stop offset="0.45" stop-color="#071a3a"></stop>
+      <stop offset="1" stop-color="#0f172a"></stop>
+    </linearGradient>
+
+    <linearGradient id="titleGradient" x1="320" y1="0" x2="880" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22d3ee"></stop>
+      <stop offset="0.35" stop-color="#67e8f9"></stop>
+      <stop offset="0.55" stop-color="#ffffff"></stop>
+      <stop offset="1" stop-color="#e5e7eb"></stop>
+    </linearGradient>
+
+    <linearGradient id="waterGradient1" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1d4ed8" stop-opacity="0.85"></stop>
+      <stop offset="0.45" stop-color="#22d3ee" stop-opacity="0.85"></stop>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0.8"></stop>
+    </linearGradient>
+
+    <linearGradient id="waterGradient2" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0ea5e9" stop-opacity="0.55"></stop>
+      <stop offset="0.55" stop-color="#2563eb" stop-opacity="0.65"></stop>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0.55"></stop>
+    </linearGradient>
+
+    <linearGradient id="waterLine" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38bdf8"></stop>
+      <stop offset="0.45" stop-color="#22d3ee"></stop>
+      <stop offset="1" stop-color="#a855f7"></stop>
+    </linearGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"></feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="blur"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"></feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="blur"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+
+    <style>
+      .circuit {
+        stroke-dasharray: 12 14;
+        animation: circuitMove 8s linear infinite;
+      }
+
+      .pulse {
+        animation: pulse 2.4s ease-in-out infinite;
+      }
+
+      .water-light {
+        stroke-dasharray: 260 900;
+        animation: waterLight 5s linear infinite;
+      }
+
+      .water-light-2 {
+        stroke-dasharray: 180 760;
+        animation: waterLight 7s linear infinite reverse;
+      }
+
+      .float {
+        animation: floatIcon 4s ease-in-out infinite;
+      }
+
+      @keyframes circuitMove {
+        from {
+          stroke-dashoffset: 0;
+        }
+        to {
+          stroke-dashoffset: -160;
+        }
+      }
+
+      @keyframes pulse {
+        0%, 100% {
+          opacity: 0.35;
+        }
+        50% {
+          opacity: 1;
+        }
+      }
+
+      @keyframes waterLight {
+        from {
+          stroke-dashoffset: 0;
+        }
+        to {
+          stroke-dashoffset: -1160;
+        }
+      }
+
+      @keyframes floatIcon {
+        0%, 100% {
+          transform: translateY(0px);
+        }
+        50% {
+          transform: translateY(-6px);
+        }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="360" rx="22" fill="url(#bg)"></rect>
+
+  <!-- Circuit Background -->
+  <g opacity="0.35" stroke="#2563eb" stroke-width="1.4">
+    <path class="circuit" d="M45 85H165L210 45H390L430 75H620"></path>
+    <path class="circuit" d="M720 65H860L925 118H1060L1145 65"></path>
+    <path class="circuit" d="M80 265H220L285 225H430"></path>
+    <path class="circuit" d="M760 250H910L980 210H1120"></path>
+    <path d="M280 120H420L455 96H540"></path>
+    <path d="M665 110H780L820 145H920"></path>
+  </g>
+
+  <!-- Top Glow Line -->
+  <path d="M290 80H520L550 105H770L805 80H930" stroke="url(#waterLine)" stroke-width="3" filter="url(#glow)" opacity="0.8">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"></animate>
+  </path>
+
+  <circle cx="600" cy="72" r="7" fill="#22d3ee" filter="url(#glow)">
+    <animate attributeName="r" values="5;10;5" dur="2.2s" repeatCount="indefinite"></animate>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.2s" repeatCount="indefinite"></animate>
+  </circle>
+
+  <!-- Left Server -->
+  <g transform="translate(95 150)" class="float">
+    <polygon points="0,55 60,25 120,55 60,85" fill="#172554" stroke="#2563eb"></polygon>
+    <polygon points="0,55 0,145 60,178 60,85" fill="#0f172a" stroke="#1d4ed8"></polygon>
+    <polygon points="120,55 120,145 60,178 60,85" fill="#1e3a8a" stroke="#2563eb"></polygon>
+    <rect x="30" y="78" width="58" height="12" rx="3" fill="#22d3ee" opacity="0.9"></rect>
+    <rect x="30" y="105" width="58" height="12" rx="3" fill="#3b82f6" opacity="0.9"></rect>
+    <rect x="30" y="132" width="44" height="12" rx="3" fill="#22d3ee" opacity="0.9"></rect>
+  </g>
+
+  <!-- Cloud -->
+  <g transform="translate(145 255)" filter="url(#glow)">
+    <ellipse cx="38" cy="24" rx="25" ry="18" fill="#0284c7"></ellipse>
+    <ellipse cx="66" cy="22" rx="22" ry="16" fill="#0ea5e9"></ellipse>
+    <ellipse cx="23" cy="31" rx="18" ry="13" fill="#38bdf8"></ellipse>
+    <rect x="20" y="24" width="65" height="26" rx="13" fill="#0ea5e9"></rect>
+  </g>
+
+  <!-- Right Monitor -->
+  <g transform="translate(955 135)" class="float">
+    <polygon points="0,50 75,15 150,50 75,88" fill="#172554" stroke="#2563eb"></polygon>
+    <polygon points="0,50 0,98 75,136 75,88" fill="#0f172a" stroke="#1d4ed8"></polygon>
+    <polygon points="150,50 150,98 75,136 75,88" fill="#1e3a8a" stroke="#2563eb"></polygon>
+    <rect x="42" y="42" width="75" height="50" rx="5" fill="#020617" stroke="#22d3ee" stroke-width="2"></rect>
+    <path d="M52 55H100" stroke="#22d3ee" stroke-width="2"></path>
+    <path d="M52 66H92" stroke="#38bdf8" stroke-width="2"></path>
+    <path d="M52 77H108" stroke="#7c3aed" stroke-width="2"></path>
+  </g>
+
+  <!-- Shield -->
+  <g transform="translate(930 245)" filter="url(#glow)">
+    <path d="M45 0L82 17V50C82 75 64 97 45 108C26 97 8 75 8 50V17L45 0Z" fill="#0ea5e9"></path>
+    <path d="M45 18L62 26V48C62 62 53 75 45 81C37 75 28 62 28 48V26L45 18Z" fill="#dbeafe"></path>
+    <rect x="39" y="48" width="13" height="18" rx="3" fill="#0f172a"></rect>
+    <path d="M36 48C36 40 40 35 46 35C52 35 56 40 56 48" stroke="#0f172a" stroke-width="4"></path>
+  </g>
+
+  <!-- Database -->
+  <g transform="translate(1065 265)">
+    <ellipse cx="0" cy="0" rx="35" ry="13" fill="#7c3aed" filter="url(#glow)"></ellipse>
+    <rect x="-35" y="0" width="70" height="45" fill="#4c1d95"></rect>
+    <ellipse cx="0" cy="45" rx="35" ry="13" fill="#312e81"></ellipse>
+    <path d="M-35 15C-12 28 12 28 35 15" stroke="#c4b5fd" opacity="0.75"></path>
+    <path d="M-35 30C-12 43 12 43 35 30" stroke="#c4b5fd" opacity="0.75"></path>
+  </g>
+
+  <!-- Main Title -->
+  <text x="600" y="145" text-anchor="middle" fill="url(#titleGradient)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="64" font-weight="900" letter-spacing="1">
+    SAN Global Digital
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="195" text-anchor="middle" fill="#22d3ee" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="27" font-weight="700">
+    Building Digital Community &amp; Infrastructure
+  </text>
+
+  <!-- Feature Labels -->
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" fill="#f8fafc">
+    <text x="360" y="272" text-anchor="middle" font-size="30">◎</text>
+    <text x="360" y="305" text-anchor="middle" font-size="18" font-weight="700">Community</text>
+
+    <text x="500" y="272" text-anchor="middle" font-size="30">◇</text>
+    <text x="500" y="305" text-anchor="middle" font-size="18" font-weight="700">Collaboration</text>
+
+    <text x="650" y="272" text-anchor="middle" font-size="30">◌</text>
+    <text x="650" y="305" text-anchor="middle" font-size="18" font-weight="700">Innovation</text>
+
+    <text x="800" y="272" text-anchor="middle" font-size="30">&lt;/&gt;</text>
+    <text x="800" y="305" text-anchor="middle" font-size="18" font-weight="700">Technology</text>
+  </g>
+
+  <!-- Water Flow Background Bottom -->
+  <g opacity="0.95">
+    <path d="M0 285
+             C120 245, 250 238, 380 270
+             C520 305, 640 340, 790 305
+             C925 274, 1015 240, 1200 270
+             L1200 360 L0 360 Z" fill="url(#waterGradient2)" opacity="0.45">
+      <animate attributeName="d" dur="8s" repeatCount="indefinite" values="
+        M0 285 C120 245, 250 238, 380 270 C520 305, 640 340, 790 305 C925 274, 1015 240, 1200 270 L1200 360 L0 360 Z;
+        M0 275 C130 250, 260 250, 395 282 C535 315, 660 330, 800 295 C940 260, 1040 250, 1200 282 L1200 360 L0 360 Z;
+        M0 285 C120 245, 250 238, 380 270 C520 305, 640 340, 790 305 C925 274, 1015 240, 1200 270 L1200 360 L0 360 Z"></animate>
+    </path>
+
+    <path d="M0 305
+             C160 275, 285 270, 430 300
+             C580 330, 710 335, 860 300
+             C1000 267, 1080 285, 1200 295
+             L1200 360 L0 360 Z" fill="url(#waterGradient1)" opacity="0.55">
+      <animate attributeName="d" dur="10s" repeatCount="indefinite" values="
+        M0 305 C160 275, 285 270, 430 300 C580 330, 710 335, 860 300 C1000 267, 1080 285, 1200 295 L1200 360 L0 360 Z;
+        M0 295 C150 280, 300 285, 440 310 C590 338, 720 320, 855 292 C995 262, 1095 275, 1200 310 L1200 360 L0 360 Z;
+        M0 305 C160 275, 285 270, 430 300 C580 330, 710 335, 860 300 C1000 267, 1080 285, 1200 295 L1200 360 L0 360 Z"></animate>
+    </path>
+
+    <path d="M0 325
+             C190 305, 310 315, 470 330
+             C620 345, 760 335, 910 315
+             C1030 300, 1110 310, 1200 318
+             L1200 360 L0 360 Z" fill="#020617" opacity="0.45">
+      <animate attributeName="d" dur="12s" repeatCount="indefinite" values="
+        M0 325 C190 305, 310 315, 470 330 C620 345, 760 335, 910 315 C1030 300, 1110 310, 1200 318 L1200 360 L0 360 Z;
+        M0 318 C180 312, 330 320, 480 335 C630 348, 770 330, 925 308 C1040 295, 1120 318, 1200 325 L1200 360 L0 360 Z;
+        M0 325 C190 305, 310 315, 470 330 C620 345, 760 335, 910 315 C1030 300, 1110 310, 1200 318 L1200 360 L0 360 Z"></animate>
+    </path>
+  </g>
+
+  <!-- Water Light Lines -->
+  <path class="water-light" d="M0 286 C140 250, 270 248, 400 280 C545 315, 660 335, 820 298 C955 266, 1050 245, 1200 272" stroke="url(#waterLine)" stroke-width="3" fill="none" filter="url(#glow)" opacity="0.9"></path>
+
+  <path class="water-light-2" d="M0 318 C170 292, 300 300, 450 322 C610 345, 745 330, 900 305 C1040 282, 1120 300, 1200 312" stroke="#38bdf8" stroke-width="2" fill="none" filter="url(#softGlow)" opacity="0.6"></path>
+
+  <!-- Bottom Badge -->
+  <g transform="translate(410 314)">
+    <rect width="380" height="34" rx="17" fill="#020617" stroke="#38bdf8" stroke-opacity="0.7"></rect>
+    <text x="190" y="23" text-anchor="middle" fill="#e0f2fe" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800" letter-spacing="1">
+      INDONESIA • OPEN SOURCE COMMUNITY
+    </text>
+  </g>
+
+  <!-- Border -->
+  <rect x="1.5" y="1.5" width="1197" height="357" rx="22" stroke="#60a5fa" stroke-opacity="0.45" stroke-width="3"></rect>
+</svg>

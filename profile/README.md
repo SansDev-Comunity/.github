@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://discord.com/invite/3SBS68MGvN">
-    <img src="./assets/san-global-digital-banner.svg" />
+    <img src="./san-global-digital-banner.svg" />
   </a>
 </p>
 

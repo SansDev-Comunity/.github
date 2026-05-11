@@ -1,7 +1,8 @@
 # 🎉 Selamat datang di
 
-
-
+<p align="center">
+  <img src="./banner-isometric.svg" alt="SAN Global Digital Banner" width="100%" />
+</p>
 
 [Join Discord Sunset Brew Community](https://discord.com/invite/VHscdktb24)
 

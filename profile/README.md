@@ -1,7 +1,7 @@
 # 🎉 Selamat datang di
 
 <p align="center">
-  <img src="./banner-isometric.svg" alt="SAN Global Digital Banner" width="100%" />
+  <img src="./banner-futuristic.svg" alt="SAN Global Digital Banner" width="100%" />
 </p>
 
 # 🚀 Organisasi SansDev Community

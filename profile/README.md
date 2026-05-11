@@ -4,19 +4,9 @@
   <img src="./banner-futuristic.svg" alt="SAN Global Digital Banner" width="100%" />
 </p> -->
 
-<!-- <p align="center">
-  <img src="./san-global-digital-banner.svg" />
-</p> -->
-
-<!-- <p align="center">
-  <img src="./assets/san-global-digital-banner.svg" />
-</p> -->
-
 <p align="center">
-  <a href="https://discord.com/invite/3SBS68MGvN">
-      <img src="./assets/san-global-digital-banner.svg" />
-  </a>
-</p>
+  <img src="./san-global-digital-banner.svg" />
+</p> 
 
 # 🚀 SansDev Community Organization
 [Join Discord Sunset Brew Community](https://discord.com/invite/VHscdktb24)

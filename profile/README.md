@@ -1,6 +1,17 @@
 # 🎉 Selamat datang di
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=260&section=header&text=SAN%20Global%20Digital&fontSize=48&fontColor=39ff14&animation=fadeIn&fontAlignY=38&color=0:000000,100:0a0f0a" />
+<p align="center">
+  <img src="./banner-isometric.svg" alt="SAN Global Digital Banner" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://discord.com/invite/VHscdktb24">
+    <img src="https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
+  </a>
+  <img src="https://img.shields.io/badge/Organization-SAN%20Global%20Digital-0ea5e9?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Focus-Open%20Source-22c55e?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Region-Indonesia-f97316?style=for-the-badge" />
+</p>
 
 
 [Join Discord Sunset Brew Community](https://discord.com/invite/VHscdktb24)

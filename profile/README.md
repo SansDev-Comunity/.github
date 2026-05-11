@@ -7,7 +7,7 @@
 </p>
 
 # 🚀 SansDev Community Organization
-[Join Discord Sunset Brew Community](https://discord.com/invite/VHscdktb24)
+[Join Community](https://san-global-digital.vercel.app/)
 
 ![image](https://raw.githubusercontent.com/SansDev-Comunity/.github/refs/heads/main/profile/Untitled%20(7).png)
 

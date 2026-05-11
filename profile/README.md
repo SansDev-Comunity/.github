@@ -1,7 +1,11 @@
 # 🎉 Selamat datang di
 
-<p align="center">
+<!-- <p align="center">
   <img src="./banner-futuristic.svg" alt="SAN Global Digital Banner" width="100%" />
+</p> -->
+
+<p align="center">
+  <img src="./assets/san-global-digital-banner.svg" />
 </p>
 
 # 🚀 SansDev Community Organization

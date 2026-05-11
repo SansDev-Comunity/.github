@@ -1,18 +1,10 @@
 # 🎉 Selamat datang di
 
-<!-- <p align="center">
-  <img src="./banner-futuristic.svg" alt="SAN Global Digital Banner" width="100%" />
-</p> -->
-
 <p align="center">
   <a href="https://discord.com/invite/3SBS68MGvN">
     <img src="./san-global-digital-banner.svg" />
   </a>
 </p>
-
-<!-- <p align="center">
-  <img src="./san-global-digital-banner.svg" />
-</p>  -->
 
 # 🚀 SansDev Community Organization
 [Join Discord Sunset Brew Community](https://discord.com/invite/VHscdktb24)

@@ -8,13 +8,13 @@
   <img src="./san-global-digital-banner.svg" />
 </p> -->
 
-<p align="center">
+<!-- <p align="center">
   <img src="./assets/san-global-digital-banner.svg" />
-</p>
+</p> -->
 
 <p align="center">
   <a href="https://discord.com/invite/3SBS68MGvN">
-    <img src="https://img.shields.io/badge/Join%20Community-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
+      <img src="./assets/san-global-digital-banner.svg" />
   </a>
 </p>
 

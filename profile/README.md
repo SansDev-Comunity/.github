@@ -4,8 +4,14 @@
   <img src="./banner-futuristic.svg" alt="SAN Global Digital Banner" width="100%" />
 </p> -->
 
-<p align="center">
+<!-- <p align="center">
   <img src="./san-global-digital-banner.svg" />
+</p> -->
+
+<p align="center">
+  <a href="https://discord.com/invite/3SBS68MGvN">
+    <img src="./assets/san-global-digital-banner.svg" />
+  </a>
 </p>
 
 # 🚀 SansDev Community Organization

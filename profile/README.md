@@ -5,7 +5,7 @@
 
 [Join Discord Sunset Brew Community](https://discord.com/invite/VHscdktb24)
 
-# 🚀 SansDev Community
+# 🚀 Organisasi SansDev Community
 
 ![image](https://raw.githubusercontent.com/SansDev-Comunity/.github/refs/heads/main/profile/Untitled%20(7).png)
 

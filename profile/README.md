@@ -5,7 +5,7 @@
 </p> -->
 
 <p align="center">
-  <img src="./profile/san-global-digital-banner.svg" />
+  <img src="./san-global-digital-banner.svg" />
 </p>
 
 # 🚀 SansDev Community Organization

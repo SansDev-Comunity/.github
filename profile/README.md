@@ -4,9 +4,8 @@
   <img src="./banner-isometric.svg" alt="SAN Global Digital Banner" width="100%" />
 </p>
 
-[Join Discord Sunset Brew Community](https://discord.com/invite/VHscdktb24)
-
 # 🚀 Organisasi SansDev Community
+[Join Discord Sunset Brew Community](https://discord.com/invite/VHscdktb24)
 
 ![image](https://raw.githubusercontent.com/SansDev-Comunity/.github/refs/heads/main/profile/Untitled%20(7).png)
 

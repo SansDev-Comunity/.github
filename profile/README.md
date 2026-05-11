@@ -1,10 +1,18 @@
 # 🎉 Selamat datang di
 
-<p align="center">
+<!-- <p align="center">
   <a href="https://discord.com/invite/3SBS68MGvN">
     <img src="./san-global-digital-banner.svg" />
   </a>
-</p>
+</p> -->
+
+<!-- Bottom Pill -->
+<a href="https://san-global-digital.vercel.app/" target="_blank">
+  <rect x="670" y="526" width="708" height="64" rx="32" fill="#020617" stroke="#2563eb" stroke-width="3"/>
+  <text x="1024" y="567" text-anchor="middle" class="pill">
+    INDONESIA <tspan fill="#a855f7">•</tspan> OPEN SOURCE COMMUNITY
+  </text>
+</a>
 
 # 🚀 SansDev Community Organization
 [Join Community](https://san-global-digital.vercel.app/)

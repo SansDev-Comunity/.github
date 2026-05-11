@@ -1,0 +1,195 @@
+<svg width="2048" height="614" viewBox="0 0 2048 614" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title {
+      font: 900 94px 'Segoe UI', Arial, sans-serif;
+      letter-spacing: -2px;
+    }
+
+    .subtitle {
+      font: 800 44px 'Segoe UI', Arial, sans-serif;
+      fill: #22d3ee;
+    }
+
+    .feature {
+      font: 600 32px 'Segoe UI', Arial, sans-serif;
+      fill: #f8fafc;
+    }
+
+    .pill {
+      font: 800 30px 'Segoe UI', Arial, sans-serif;
+      fill: #f8fafc;
+      letter-spacing: 2px;
+    }
+
+    .cyan { fill: #22d3ee; }
+    .white { fill: #f8fafc; }
+
+    .glow-cyan {
+      filter: drop-shadow(0 0 8px #22d3ee)
+              drop-shadow(0 0 20px rgba(34, 211, 238, .75));
+    }
+
+    .glow-purple {
+      filter: drop-shadow(0 0 8px #a855f7)
+              drop-shadow(0 0 20px rgba(168, 85, 247, .7));
+    }
+
+    .float {
+      animation: float 4s ease-in-out infinite;
+      transform-origin: center;
+    }
+
+    .float-alt {
+      animation: floatAlt 4.8s ease-in-out infinite;
+      transform-origin: center;
+    }
+
+    .pulse {
+      animation: pulse 2.4s ease-in-out infinite;
+    }
+
+    .line-flow {
+      stroke-dasharray: 520;
+      stroke-dashoffset: 520;
+      animation: flow 5s linear infinite;
+    }
+
+    .icon-move {
+      animation: iconMove 3.2s ease-in-out infinite;
+      transform-origin: center;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    @keyframes floatAlt {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(8px); }
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: .45; }
+      50% { opacity: 1; }
+    }
+
+    @keyframes flow {
+      to { stroke-dashoffset: -520; }
+    }
+
+    @keyframes iconMove {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-7px); }
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="2048" y2="614">
+      <stop offset="0%" stop-color="#020617"></stop>
+      <stop offset="48%" stop-color="#071832"></stop>
+      <stop offset="100%" stop-color="#020617"></stop>
+    </linearGradient>
+
+    <linearGradient id="lineGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"></stop>
+      <stop offset="52%" stop-color="#2563eb"></stop>
+      <stop offset="100%" stop-color="#a855f7"></stop>
+    </linearGradient>
+
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse">
+      <path d="M46 0H0V46" stroke="#2563eb" stroke-opacity=".08" stroke-width="1"></path>
+    </pattern>
+  </defs>
+
+  <rect width="2048" height="614" rx="42" fill="url(#bg)"></rect>
+  <rect width="2048" height="614" rx="42" fill="url(#grid)"></rect>
+  <rect x="3" y="3" width="2042" height="608" rx="40" stroke="#2563eb" stroke-width="5" opacity=".9"></rect>
+
+  <path class="line-flow glow-cyan" d="M70 142H280L360 66H665L725 113H880L930 156H1185L1245 113H1380L1422 82H1585" stroke="url(#lineGradient)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path class="line-flow glow-purple" d="M1230 88H1490L1592 184H1815L1935 96" stroke="#2563eb" stroke-width="2.5" stroke-linecap="round" opacity=".58"></path>
+  <path class="line-flow glow-cyan" d="M460 377H900L930 347H1325L1368 377H1585" stroke="url(#lineGradient)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  <circle class="pulse glow-cyan" cx="1024" cy="101" r="12" fill="#22d3ee"></circle>
+
+  <g class="float glow-cyan">
+    <path d="M147 292L256 239L365 292L256 346L147 292Z" fill="#12347a" stroke="#1d8bff" stroke-width="2"></path>
+    <path d="M147 292V454L256 512V346Z" fill="#0f2253" stroke="#1d8bff" stroke-width="2"></path>
+    <path d="M365 292V454L256 512V346Z" fill="#1d4ed8" fill-opacity=".26" stroke="#1d8bff" stroke-width="2"></path>
+    <rect x="203" y="336" width="103" height="22" rx="5" fill="#22d3ee"></rect>
+    <rect x="203" y="385" width="103" height="22" rx="5" fill="#38bdf8"></rect>
+    <rect x="203" y="432" width="103" height="22" rx="5" fill="#22d3ee"></rect>
+    <ellipse cx="332" cy="451" rx="75" ry="34" fill="#0ea5e9"></ellipse>
+    <circle cx="298" cy="441" r="36" fill="#22d3ee" opacity=".72"></circle>
+    <circle cx="361" cy="432" r="36" fill="#0ea5e9"></circle>
+  </g>
+
+  <g class="float-alt glow-purple">
+    <path d="M1634 285L1764 225L1894 285L1764 345L1634 285Z" fill="#12347a" stroke="#1d8bff" stroke-width="2"></path>
+    <path d="M1634 285V370L1764 435V345Z" fill="#0f2253" stroke="#1d8bff" stroke-width="2"></path>
+    <path d="M1894 285V370L1764 435V345Z" fill="#1d4ed8" fill-opacity=".26" stroke="#1d8bff" stroke-width="2"></path>
+    <rect x="1706" y="270" width="132" height="88" rx="10" fill="#020617" stroke="#22d3ee" stroke-width="4"></rect>
+    <line x1="1724" y1="294" x2="1810" y2="294" stroke="#22d3ee" stroke-width="5" stroke-linecap="round"></line>
+    <line x1="1724" y1="317" x2="1788" y2="317" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"></line>
+    <line x1="1724" y1="338" x2="1820" y2="338" stroke="#a855f7" stroke-width="4" stroke-linecap="round"></line>
+    <ellipse cx="1858" cy="421" rx="66" ry="28" fill="#7c3aed"></ellipse>
+    <rect x="1792" y="421" width="132" height="91" fill="#5b21b6"></rect>
+    <ellipse cx="1858" cy="512" rx="66" ry="28" fill="#4c1d95"></ellipse>
+    <path d="M1792 452C1826 473 1890 473 1924 452" stroke="#c084fc" stroke-width="2"></path>
+    <path d="M1792 488C1826 509 1890 509 1924 488" stroke="#c084fc" stroke-width="2"></path>
+  </g>
+
+  <g class="float glow-cyan">
+    <path d="M1666 397L1735 426V481C1735 528 1704 558 1666 574C1628 558 1597 528 1597 481V426L1666 397Z" fill="#0ea5e9"></path>
+    <path d="M1666 420L1700 435V477C1700 501 1683 519 1666 530C1649 519 1632 501 1632 477V435L1666 420Z" fill="#f8fafc"></path>
+    <path d="M1648 476V455C1648 440 1656 430 1668 430C1680 430 1688 440 1688 455V476" stroke="#020617" stroke-width="8"></path>
+    <rect x="1644" y="468" width="48" height="38" rx="6" fill="#020617"></rect>
+  </g>
+
+  <text x="1024" y="228" text-anchor="middle" class="title">
+    <tspan class="cyan">SAN</tspan>
+    <tspan class="white" dx="28">Global Digital</tspan>
+  </text>
+
+  <text x="1024" y="318" text-anchor="middle" class="subtitle">
+    Building Digital Community &amp; Infrastructure
+  </text>
+
+  <g>
+    <g class="icon-move glow-cyan">
+      <circle cx="612" cy="431" r="28" stroke="#22d3ee" stroke-width="4"></circle>
+      <path d="M584 431H640" stroke="#22d3ee" stroke-width="4"></path>
+      <path d="M612 403C626 419 626 443 612 459" stroke="#22d3ee" stroke-width="3"></path>
+      <path d="M612 403C598 419 598 443 612 459" stroke="#22d3ee" stroke-width="3"></path>
+    </g>
+    <text x="612" y="497" text-anchor="middle" class="feature">Community</text>
+
+    <g class="icon-move glow-purple" style="animation-delay:.25s">
+      <text x="865" y="448" text-anchor="middle" font-size="48">🤝</text>
+    </g>
+    <text x="865" y="497" text-anchor="middle" class="feature">Collaboration</text>
+
+    <g class="icon-move" style="animation-delay:.5s">
+      <path d="M1164 432C1164 407 1143 389 1118 389C1093 389 1072 407 1072 432C1072 449 1081 461 1091 470V484H1145V470C1155 461 1164 449 1164 432Z" stroke="#ffd166" stroke-width="5"></path>
+      <line x1="1095" y1="502" x2="1141" y2="502" stroke="#ffd166" stroke-width="5" stroke-linecap="round"></line>
+      <line x1="1101" y1="516" x2="1135" y2="516" stroke="#ffd166" stroke-width="4" stroke-linecap="round"></line>
+    </g>
+    <text x="1118" y="497" text-anchor="middle" class="feature">Innovation</text>
+
+    <g class="icon-move glow-cyan" style="animation-delay:.75s">
+      <rect x="1360" y="407" width="40" height="40" rx="4" stroke="#22d3ee" stroke-width="4"></rect>
+      <rect x="1372" y="419" width="16" height="16" rx="2" fill="#f8fafc"></rect>
+      <path d="M1348 414H1360M1348 427H1360M1348 440H1360M1400 414H1412M1400 427H1412M1400 440H1412" stroke="#93c5fd" stroke-width="3" stroke-linecap="round"></path>
+    </g>
+    <text x="1380" y="497" text-anchor="middle" class="feature">Technology</text>
+
+    <line x1="738" y1="438" x2="738" y2="502" stroke="#2563eb" stroke-width="2" opacity=".7"></line>
+    <line x1="992" y1="438" x2="992" y2="502" stroke="#2563eb" stroke-width="2" opacity=".7"></line>
+    <line x1="1249" y1="438" x2="1249" y2="502" stroke="#2563eb" stroke-width="2" opacity=".7"></line>
+  </g>
+
+  <rect x="670" y="526" width="708" height="64" rx="32" fill="#020617" stroke="#2563eb" stroke-width="3"></rect>
+  <text x="1024" y="567" text-anchor="middle" class="pill">
+    INDONESIA <tspan fill="#a855f7">•</tspan> OPEN SOURCE COMMUNITY
+  </text>
+</svg>

@@ -8,6 +8,12 @@
   <img src="./san-global-digital-banner.svg" />
 </p>
 
+<p align="center">
+  <a href="https://discord.com/invite/3SBS68MGvN">
+    <img src="https://img.shields.io/badge/Community-Join%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
+  </a>
+</p>
+
 # 🚀 SansDev Community Organization
 [Join Discord Sunset Brew Community](https://discord.com/invite/VHscdktb24)
 

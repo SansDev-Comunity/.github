@@ -1,0 +1,163 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"></stop>
+      <stop offset="0.45" stop-color="#071a3a"></stop>
+      <stop offset="1" stop-color="#111827"></stop>
+    </linearGradient>
+
+    <linearGradient id="cyanText" x1="350" y1="0" x2="850" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22d3ee"></stop>
+      <stop offset="0.45" stop-color="#ffffff"></stop>
+      <stop offset="1" stop-color="#e5e7eb"></stop>
+    </linearGradient>
+
+    <linearGradient id="lineGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#22d3ee"></stop>
+      <stop offset="1" stop-color="#7c3aed"></stop>
+    </linearGradient>
+
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur"></feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="blur"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+
+    <filter id="strongGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="10" result="blur"></feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="blur"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="360" rx="22" fill="url(#bg)"></rect>
+
+  <!-- Subtle circuit background -->
+  <g opacity="0.22" stroke="#2563eb" stroke-width="1.2">
+    <path d="M40 95H160L210 50H390L430 80H620"></path>
+    <path d="M720 65H860L920 120H1060L1135 70"></path>
+    <path d="M80 275H220L280 235H430"></path>
+    <path d="M770 260H910L980 215H1120"></path>
+    <path d="M310 120H420L455 95H540"></path>
+    <path d="M665 110H780L820 145H910"></path>
+  </g>
+
+  <!-- Animated glow lines -->
+  <g stroke="url(#lineGlow)" stroke-width="2.5" filter="url(#glow)">
+    <path d="M285 80H520L550 105H770L805 80H930">
+      <animate attributeName="opacity" values="0.25;1;0.25" dur="3s" repeatCount="indefinite"></animate>
+    </path>
+
+    <path d="M290 235H520L545 215H775L805 235H925">
+      <animate attributeName="opacity" values="1;0.25;1" dur="3.5s" repeatCount="indefinite"></animate>
+    </path>
+
+    <path d="M130 190H280">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.5s" repeatCount="indefinite"></animate>
+    </path>
+
+    <path d="M920 190H1070">
+      <animate attributeName="opacity" values="1;0.2;1" dur="2.8s" repeatCount="indefinite"></animate>
+    </path>
+  </g>
+
+  <!-- Top light -->
+  <circle cx="600" cy="72" r="5" fill="#22d3ee" filter="url(#strongGlow)">
+    <animate attributeName="r" values="4;8;4" dur="2s" repeatCount="indefinite"></animate>
+  </circle>
+
+  <!-- Left server illustration -->
+  <g transform="translate(95 150)">
+    <polygon points="0,55 60,25 120,55 60,85" fill="#172554" stroke="#2563eb"></polygon>
+    <polygon points="0,55 0,145 60,178 60,85" fill="#0f172a" stroke="#1d4ed8"></polygon>
+    <polygon points="120,55 120,145 60,178 60,85" fill="#1e3a8a" stroke="#2563eb"></polygon>
+    
+    <rect x="30" y="78" width="58" height="12" rx="3" fill="#22d3ee" opacity="0.9"></rect>
+    <rect x="30" y="105" width="58" height="12" rx="3" fill="#3b82f6" opacity="0.9"></rect>
+    <rect x="30" y="132" width="44" height="12" rx="3" fill="#22d3ee" opacity="0.9"></rect>
+    
+    <circle cx="97" cy="137" r="5" fill="#a855f7" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" repeatCount="indefinite"></animate>
+    </circle>
+  </g>
+
+  <!-- Cloud -->
+  <g transform="translate(145 255)" filter="url(#glow)">
+    <ellipse cx="38" cy="24" rx="25" ry="18" fill="#0284c7"></ellipse>
+    <ellipse cx="66" cy="22" rx="22" ry="16" fill="#0ea5e9"></ellipse>
+    <ellipse cx="23" cy="31" rx="18" ry="13" fill="#38bdf8"></ellipse>
+    <rect x="20" y="24" width="65" height="26" rx="13" fill="#0ea5e9"></rect>
+  </g>
+
+  <!-- Right laptop -->
+  <g transform="translate(955 135)">
+    <polygon points="0,50 75,15 150,50 75,88" fill="#172554" stroke="#2563eb"></polygon>
+    <polygon points="0,50 0,98 75,136 75,88" fill="#0f172a" stroke="#1d4ed8"></polygon>
+    <polygon points="150,50 150,98 75,136 75,88" fill="#1e3a8a" stroke="#2563eb"></polygon>
+
+    <rect x="42" y="42" width="75" height="50" rx="5" fill="#020617" stroke="#22d3ee" stroke-width="2"></rect>
+    <path d="M52 55H100" stroke="#22d3ee" stroke-width="2"></path>
+    <path d="M52 66H92" stroke="#38bdf8" stroke-width="2"></path>
+    <path d="M52 77H108" stroke="#7c3aed" stroke-width="2"></path>
+
+    <polygon points="25,140 75,115 125,140 75,165" fill="#1e40af" stroke="#2563eb"></polygon>
+  </g>
+
+  <!-- Shield -->
+  <g transform="translate(930 245)" filter="url(#glow)">
+    <path d="M45 0L82 17V50C82 75 64 97 45 108C26 97 8 75 8 50V17L45 0Z" fill="#0ea5e9"></path>
+    <path d="M45 18L62 26V48C62 62 53 75 45 81C37 75 28 62 28 48V26L45 18Z" fill="#dbeafe"></path>
+    <rect x="39" y="48" width="13" height="18" rx="3" fill="#0f172a"></rect>
+    <path d="M36 48C36 40 40 35 46 35C52 35 56 40 56 48" stroke="#0f172a" stroke-width="4"></path>
+  </g>
+
+  <!-- Database -->
+  <g transform="translate(1065 265)">
+    <ellipse cx="0" cy="0" rx="35" ry="13" fill="#7c3aed" filter="url(#glow)"></ellipse>
+    <rect x="-35" y="0" width="70" height="45" fill="#4c1d95"></rect>
+    <ellipse cx="0" cy="45" rx="35" ry="13" fill="#312e81"></ellipse>
+    <path d="M-35 15C-12 28 12 28 35 15" stroke="#c4b5fd" opacity="0.75"></path>
+    <path d="M-35 30C-12 43 12 43 35 30" stroke="#c4b5fd" opacity="0.75"></path>
+  </g>
+
+  <!-- Main title -->
+  <text x="600" y="145" text-anchor="middle" fill="url(#cyanText)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="64" font-weight="900" letter-spacing="1">
+    SAN Global Digital
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="195" text-anchor="middle" fill="#22d3ee" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="27" font-weight="700">
+    Building Digital Community &amp; Infrastructure
+  </text>
+
+  <!-- Feature icons -->
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" fill="#f8fafc">
+    <text x="360" y="270" text-anchor="middle">🌐</text>
+    <text x="360" y="302" text-anchor="middle">Community</text>
+
+    <text x="500" y="270" text-anchor="middle">🤝</text>
+    <text x="500" y="302" text-anchor="middle">Collaboration</text>
+
+    <text x="650" y="270" text-anchor="middle">💡</text>
+    <text x="650" y="302" text-anchor="middle">Innovation</text>
+
+    <text x="800" y="270" text-anchor="middle">⌨</text>
+    <text x="800" y="302" text-anchor="middle">Technology</text>
+  </g>
+
+  <!-- Bottom badge -->
+  <g transform="translate(410 315)">
+    <rect width="380" height="34" rx="17" fill="#020617" stroke="#2563eb"></rect>
+    <text x="190" y="23" text-anchor="middle" fill="#e0f2fe" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="1">
+      INDONESIA • OPEN SOURCE COMMUNITY
+    </text>
+  </g>
+
+  <!-- Border -->
+  <rect x="1.5" y="1.5" width="1197" height="357" rx="22" stroke="#60a5fa" stroke-opacity="0.35" stroke-width="3"></rect>
+</svg>

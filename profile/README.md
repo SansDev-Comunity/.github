@@ -7,7 +7,7 @@
 </p>
 
 # 🚀 SansDev Community Organization
-[Join Community](https://san-global-digital.vercel.app/)
+[Join Discord Community](https://san-global-digital.vercel.app/)
 
 We are a digital team focused on building creative, modern, and powerful web experiences.
 

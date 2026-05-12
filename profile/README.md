@@ -9,6 +9,33 @@
 # 🚀 SansDev Community Organization
 [Join Community](https://san-global-digital.vercel.app/)
 
+We are a digital team focused on building creative, modern, and powerful web experiences.
+
+</div>
+
+<br>
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="33%">
+  <h3>🎨 Design</h3>
+  <p>Modern UI, branding, visual identity, and digital creativity.</p>
+</td>
+<td align="center" width="33%">
+  <h3>💻 Development</h3>
+  <p>Web apps, landing pages, portfolio websites, and company profiles.</p>
+</td>
+<td align="center" width="33%">
+  <h3>⚙️ DevOps</h3>
+  <p>Deployment, automation, server setup, and project maintenance.</p>
+</td>
+</tr>
+</table>
+
+</div>
+
 ![image](https://raw.githubusercontent.com/SansDev-Comunity/.github/refs/heads/main/profile/Untitled%20(7).png)
 
 SansDev adalah organisasi yang bergerak di bidang edukasi dan bersifat sumber terbuka (open source).

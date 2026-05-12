@@ -7,7 +7,7 @@
 </p>
 
 # 🚀 SansDev Community Organization
-[Join Community](https://san-global-digital.vercel.app/) <br>
+[Join Community](https://san-global-digital.vercel.app/) <br> <br>
 We are a digital team focused on building creative, modern, and powerful web experiences.
 
 ![svg](https://raw.githubusercontent.com/yoshi389111/github-profile-3d-contrib/main/docs/demo/profile-night-view.svg)

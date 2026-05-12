@@ -13,8 +13,6 @@ We are a digital team focused on building creative, modern, and powerful web exp
 
 </div>
 
-<br>
-
 <div align="center">
 
 <table>
